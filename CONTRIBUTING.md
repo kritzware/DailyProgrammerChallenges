@@ -11,6 +11,17 @@ Here are some of the known issues with the repository that you could potentially
 - Inconsistency between title formatting i.e. `[hard] vs [Hard] vs [Difficult]`, ordering of words, lowercase vs uppercase letters, etc (take a look at the challenge names to see the inconsistencies)
 - Missing selftext for some challenge titles (Issue #4)
 
+Please use the following name format when creating a challenge directory:
+
+`Challenge #xxxx [Easy/Intermediate/Hard] Challenge Name`
+
+Example:
+
+```
+Challenge #0251 [Hard] ASCII Nonogram
+Challenge #0254 [Intermediate] Finding Legal Reversi Moves
+Challenge #0253 [Easy] Unconditional Loan Income
+```
 
 ### Solutions
 
@@ -31,9 +42,10 @@ solutionX.py
 
 If you want your name, reddit username, github handle, what have you, to be included, just add a header comment to your file
 In Python for example, you can use """ some text """, in Java you can use /* Some text here */.
+
 ---------------------
 
-If you've done any of the above tasks, submit a Pull Request and feel free to add your name and a link to your GitHub profile to the list below.
+If you've done any of the above tasks, fork the repo, make your changes and submit a pull request; feel free to add your name and a link to your GitHub profile to the list below.
 
 
 ### Contributors
